@@ -18,7 +18,7 @@
 		</extension>
 	</addon>
 
-<addon id="plugin.program.sprzataczKaWP" version="0.0.5" name="SprzątaczKaWP" provider-name="Tomek">
+<addon id="plugin.program.sprzataczKaWP" version="0.0.6" name="SprzątaczKaWP" provider-name="Tomek">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.requests"/>

@@ -10,7 +10,7 @@ import json
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 
-listarepo = requests.get("lista.txt").text.split("\n")
+listarepo = requests.get("https://raw.githubusercontent.com/notoco/notoco.kwp/master/lista.txt").text.split("\n")
 listarepo = [x for x in listarepo if x]
 
 potwierdz = xbmcgui.Dialog().ok(addonname, "Program usuwa repozytoria i programy, subbiektywnie ocenione przez ekipę KODIWPIGULCE.pl jako niebezpieczne.", "Nie odpowiadamy za straty wywołane usunięciem repozytoriów bądź programów.\nUżywasz na własną odpowiedzialność", "Repozytoria są usuwane bezpośrednio, z pominięciem odinstalowania przez kodi, co często jest niemożliwe przez istniejące zależności.\nPonadto usuwany jest program INDIGO") 
