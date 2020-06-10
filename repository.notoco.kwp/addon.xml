@@ -4,7 +4,7 @@
 			<dir>
 				<info>https://github.com/notoco/notoco.kwp/raw/master/addons.xml</info>
 				<checksum>https://github.com/notoco/notoco.kwp/raw/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/notoco.kwp/univ/raw/master/zip</datadir>
+				<datadir zip="true">https://github.com/notoco/notoco.kwp/raw/master/zip/</datadir>
 			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
