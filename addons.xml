@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.notoco.kwp" name="Notoco KWP Repo" version="1.0" provider-name="notoco">
+		<extension point="xbmc.addon.repository" name="Notoco KWP Repo">
+			<dir>
+				<info>https://github.com/notoco/notoco.kwp/raw/master/addons.xml</info>
+				<checksum>https://github.com/notoco/notoco.kwp/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/notoco.kwp/univ/raw/master/zip</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Notoco KWP Repo</summary>
+			<description>Repozytorium notoco z wtyczkami dla KWP - kodiwpigulce.pl</description>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+
+<addon id="plugin.program.sprzataczKaWP" version="0.0.5" name="SprzątaczKaWP" provider-name="Tomek">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>SprzątaczKaWP</summary>
+        <description lang="pl">Program usuwa repozytoria i programy, subbiektywnie ocenione przez ekipę KODIWPIGULCE.pl jako niebezpieczne. Zespół kodiwpigulce.pl nie odpowiada za uszkodzenia spowodowanie jej używaniem. Używasz na własną odpowiedzialność.</description>
+        <disclaimer lang="pl">Program usuwa repozytoria i programy, subbiektywnie ocenione przez ekipę KODIWPIGULCE.pl jako niebezpieczne.</disclaimer>
+        <license>Beerware rev. 42</license>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
+</addons>

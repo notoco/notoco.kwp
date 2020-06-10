@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.notoco.kwp" name="Notoco KWP Repo" version="1.0" provider-name="notoco">
+		<extension point="xbmc.addon.repository" name="Notoco KWP Repo">
+			<dir>
+				<info>https://github.com/notoco/notoco.kwp/raw/master/addons.xml</info>
+				<checksum>https://github.com/notoco/notoco.kwp/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/notoco.kwp/univ/raw/master/zip</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Notoco KWP Repo</summary>
+			<description>Repozytorium notoco z wtyczkami dla KWP - kodiwpigulce.pl</description>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
