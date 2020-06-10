@@ -1,0 +1,11 @@
+repository.robinhood
+repository.kodil
+superrepo.kodi.krypton.repositories
+superrepo.kodi.krypton.external.repositories
+plugin.program.indigo
+repository.tva.common
+repository.kodibalkan
+repository.kodibae
+repository.exodusredux
+repository.xbmchub
+plugin.git.browser
