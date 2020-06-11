@@ -2,10 +2,11 @@ repository.robinhood
 repository.kodil
 superrepo.kodi.krypton.repositories
 superrepo.kodi.krypton.external.repositories
-plugin.program.indigo
 repository.tva.common
 repository.kodibalkan
 repository.kodibae
 repository.exodusredux
 repository.xbmchub
+plugin.program.indigo
+script.tvaddons.debug.log
 plugin.git.browser
