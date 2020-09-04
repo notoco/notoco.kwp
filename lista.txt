@@ -10,3 +10,4 @@ repository.xbmchub
 plugin.program.indigo
 script.tvaddons.debug.log
 plugin.git.browser
+repository.tojelako
