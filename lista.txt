@@ -11,3 +11,11 @@ plugin.program.indigo
 script.tvaddons.debug.log
 plugin.git.browser
 repository.tojelako
+service.vavooto.updater
+service.vavooto
+skin.vavooto
+plugin.video.vavooto
+plugin.program.autocompletion.vavooto
+script.module.autocompletion.vavooto
+repository.vavooto
+repository.vavooto.testing
