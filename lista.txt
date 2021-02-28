@@ -21,3 +21,4 @@ repository.vavooto
 repository.vavooto.testing
 plugin.program.Samsung_Freak_PL_APK
 repository.duffy
+plugin.program.Freak_PL
