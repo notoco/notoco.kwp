@@ -20,3 +20,4 @@ script.module.autocompletion.vavooto
 repository.vavooto
 repository.vavooto.testing
 repository.duffy
+script.module.urlresolver
